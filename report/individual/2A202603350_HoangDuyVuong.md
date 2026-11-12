@@ -9,7 +9,7 @@ Dữ liệu: 12 ảnh người COCO val2017 (Lin et al., 2014) và 8 ảnh chân
 - Họ tên: Hoàng Duy Vuương
 - MSSV: 2A202603350
 - Email: duyvuong12333@gmail.com
-- Link repository: https://github.com/YuSh1nafk/K5-L2B-HoangDuyVuong-2A202603350-KeypointPose-Student
+- Link repository: https://github.com/YuSh1nafk/K5-L2B-Day04-HoangDuyVuong-2A202603350-KeypointPose
 - Phiên bản CVAT (Help → About): 2.74.1
 - Máy: hệ điều hành win 11 · RAM 16 GB · chạy CVAT chế độ đầy đủ
 - Bộ ảnh (`src/exports/assignment.json` do `lab.py setup` tạo): có 
