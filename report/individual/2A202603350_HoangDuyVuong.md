@@ -1,18 +1,18 @@
 # Báo cáo cá nhân — HoVaTen-MSSV
 
-Đổi tên file theo quy tắc `MSSV_HoTen.md`. Ví dụ: `20241234_NguyenVanAn.md`.
+Đổi tên file theo quy tắc `2A202603350_HoangDuyVuong.md`. Ví dụ: `20241234_NguyenVanAn.md`.
 
 Dữ liệu: 12 ảnh người COCO val2017 (Lin et al., 2014) và 8 ảnh chân dung Wikimedia Commons, chỉ dùng trong lớp.
 
 ## 0. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Email:
-- Link repository:
-- Phiên bản CVAT (Help → About):
-- Máy: hệ điều hành ___ · RAM ___ GB · chạy CVAT chế độ đầy đủ / lite
-- Bộ ảnh (`src/exports/assignment.json` do `lab.py setup` tạo): có / không
+- Họ tên: Hoàng Duy Vuương
+- MSSV: 2A202603350
+- Email: duyvuong12333@gmail.com
+- Link repository: https://github.com/YuSh1nafk/K5-L2B-HoangDuyVuong-2A202603350-KeypointPose-Student
+- Phiên bản CVAT (Help → About): 2.74.1
+- Máy: hệ điều hành win 11 · RAM 16 GB · chạy CVAT chế độ đầy đủ
+- Bộ ảnh (`src/exports/assignment.json` do `lab.py setup` tạo): có 
 - Giờ bắt đầu:
 - Giờ kết thúc:
 
@@ -25,7 +25,7 @@ Dữ liệu: 12 ảnh người COCO val2017 (Lin et al., 2014) và 8 ảnh chân
 
 Mẫu `person` dựng theo người quay mặt về camera (các điểm `left_*` nằm bên phải khung mẫu)? Có / Không
 
-Cách đổi cờ `occluded` / `outside` cho **một điểm** trên phiên bản CVAT này (một câu):
+Cách đổi cờ `occluded` / `outside` cho **một điểm** trên phiên bản CVAT này (một câu): bằng cách bật tắt option trong objects
 
 ...
 
@@ -95,7 +95,7 @@ Tự kiểm tay trong file JSON:
 
 Sau khi xuất, CVAT ghi `occluded` thành `v = ___` và `outside` thành `v = ___`. Tọa độ của điểm `outside` trong file là `0, 0` hay tọa độ cũ? ___
 
-Hai job đã chuyển sang completed trên CVAT? Có / Không
+Hai job đã chuyển sang completed trên CVAT? Có 
 
 Dán phần **TÓM TẮT** in ra từ `src/check_submission.py`:
 
@@ -165,7 +165,7 @@ Kết quả `src/check_submission.py` cho `HoVaTen_bonus_persons.zip`:
 
 Ảnh không màu khó hơn ở điểm nào? Kính râm trên ảnh hồng ngoại có còn là `v = 1` không?
 
-...
+nh không màu khó xác định các chi hơn, có kính râm vẫn là v=1
 
 ### B3 — Model so với nhãn của tôi (không tính điểm)
 
@@ -178,7 +178,7 @@ Kết quả `src/check_submission.py` cho `HoVaTen_bonus_persons.zip`:
 
 2. Với người quay lưng, model có đổi trái/phải không?
 
-   ...
+   có
 
 3. Bộ điểm của model có giống 17 điểm COCO không?
 
@@ -186,4 +186,4 @@ Kết quả `src/check_submission.py` cho `HoVaTen_bonus_persons.zip`:
 
 ## 9. Tài liệu tham khảo và công cụ AI đã dùng
 
-...
+Không

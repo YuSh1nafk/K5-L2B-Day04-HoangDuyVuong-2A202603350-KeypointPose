@@ -44,7 +44,7 @@ K5-L2-DAY04-HoVaTen-MSSV-KeypointPose/
 | `src/exports/assignment.json` | Tạo bởi `python lab.py setup`. Coach dùng MSSV trong file để tính lại bộ ảnh của bạn khi chấm |
 | `src/exports/HoVaTen_persons.zip` | `python lab.py export` tạo tự động (`HoVaTen` = giá trị `--ten` bạn nhập). Xuất từ task `persons-<tên>`, định dạng **COCO Keypoints 1.0**, bỏ chọn Save images. Bên trong có `annotations/person_keypoints_default.json` |
 | `src/exports/HoVaTen_faces.zip` | Xuất từ task `faces-<tên>`, cùng định dạng, bỏ chọn Save images |
-| `report/individual/MSSV_HoTen.md` | Đổi tên theo MSSV và họ tên không dấu, ví dụ `20241234_NguyenVanAn.md`. Điền đủ mục 0–8 |
+| `report/individual/2A202603350_HoangDuyVuong.md` | Đổi tên theo MSSV và họ tên không dấu, ví dụ `20241234_NguyenVanAn.md`. Điền đủ mục 0–8 |
 | `report/individual/images/` | 4 ảnh: `1_label_person.png`, `2_nguoi_quay_lung.png`, `3_mat_phong_to.png`, `4_json_export.png` (chi tiết ở báo cáo mục 6) |
 
 Ngoài repo, trên CVAT: hai job của bạn phải ở trạng thái **completed**.
@@ -100,7 +100,7 @@ Lệnh chỉ được in ra ảnh minh họa có sẵn trong `docs/images/` và 
 - [ ] Repo đặt đúng tên `K5-L2-DAY04-HoVaTen-MSSV-KeypointPose`.
 - [ ] Có `src/exports/assignment.json`, `src/exports/HoVaTen_persons.zip` và `src/exports/HoVaTen_faces.zip` (chạy `python lab.py export` lần cuối sau khi gán xong).
 - [ ] Script tự kiểm in `Kết quả: ĐẠT`; đã dán phần tóm tắt vào báo cáo mục 5.
-- [ ] Báo cáo đã đổi tên thành `MSSV_HoTen.md` và điền đủ mục 0–8.
+- [ ] Báo cáo đã đổi tên thành `2A202603350_HoangDuyVuong.md` và điền đủ mục 0–8.
 - [ ] Bảng tự review có ít nhất 8 dòng (5 ảnh người, 3 ảnh mặt).
 - [ ] Có 4 ảnh chụp màn hình trong `report/individual/images/` và đã chèn vào báo cáo.
 - [ ] Hai job trên CVAT đã chuyển sang **completed**.
